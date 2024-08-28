@@ -1,0 +1,83 @@
+body {
+  
+    background-color: rgba(201, 76, 76, 0.3);
+
+  }
+  
+  h1 {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 48px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  h2 {
+    color: red;
+    font-family: Arial, sans-serif;
+    font-size: 38px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  nav {
+    background-color: rgb(60, 60, 60);
+    height: 50px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 10px;
+    border-color: #fff;
+  }
+  
+  nav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+
+  nav p {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding-right: 20px;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
+  h1 {
+    font-family: Arial, sans-serif;
+  }
+  
+  p {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+  }
+
+.song-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .song {
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  h2 {
+    margin: 0;
+  }
+  
+  audio {
+    width: 100%;
+  }

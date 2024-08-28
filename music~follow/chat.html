@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group Chat Interface</title>
+    <link rel="stylesheet" href="css/chat.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation bar -->
+    <header>
+        <nav class="navbar">
+            <img src="photo/logo.jpg" alt="Music_Follow Logo" class="logo">
+            <ul class="nav-links">
+                <li><a href="music_follow.html">Music_Follow</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="social.html">Social Club</a></li>
+                <li><a href="video.html">Vidéo Club</a></li>
+                <li> 
+                    <a>More</a>
+                    <ul class="dropdown">
+                        
+                        <li><a href="chat.html">Chats</a></li>
+                        <li><a href="audio.html">Audio</a></li>
+                        <li><a href="videos.html">Videos</a></li>
+                        <li><a href="reels.html">Reels</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="nav-icons">
+                <a href="lives.html" class="icon">▶ Live</a>
+                
+            </div>
+        </nav>
+    </header>
+
+    <div class="chat-container">
+        <div class="chat-header">
+            <h2>Group Chat</h2>
+        </div>
+        <div class="chat-messages" id="chatMessages">
+            <!-- Messages will be dynamically added here -->
+            <div class="message">
+                <div class="message-avatar">
+                    <img src="avatar1.png" alt="User 1">
+                </div>
+                <div class="message-content">
+                    <span class="message-user">User 1</span>
+                    <p>Hello everyone!</p>
+                    <span class="message-time">10:00 AM</span>
+                </div>
+            </div>
+            <div class="message">
+                <div class="message-avatar">
+                    <img src="avatar2.png" alt="User 2">
+                </div>
+                <div class="message-content">
+                    <span class="message-user">User 2</span>
+                    <p>Hi User 1! How are you?</p>
+                    <span class="message-time">10:01 AM</span>
+                </div>
+            </div>
+        </div>
+        <div class="chat-input">
+            <input type="text" id="messageInput" placeholder="Type your message here...">
+            <button id="sendButton">Send</button>
+        </div>
+    </div>
+
+    <script src="js/home.js"></script>
+</body>
+</html>
